@@ -1,0 +1,30 @@
+img{
+    width: 130px;
+    height: 90px;
+    margin: 15px 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 7px lightseagreen;
+}
+
+.img-logo{
+    box-shadow: none;
+    width: 85px;
+    height: 85px;
+    border-radius: 45px;
+    padding: 7px;
+    background-color: #f0fff0;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+
+.row-inner{
+    height: 370px;
+}
+
+.hoi-link{
+    width: 90%;
+    height: auto;
+    padding: 10px 5px;
+    box-shadow: 5px 5px 5px lightgray;
+    background-color: #f0fff0;
+}
