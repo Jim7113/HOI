@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="sidenav.css">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img src="img/hoi.png" alt="">
+            </div>
+            <span class="hamicon" onclick="openMenu()">&#9776;</span>
+        </div>
+    </header>
+    <div class="sidenav" id="navpop">
+        <a href="javascript:void(0)" class="closemenu" onclick="closeMenu()">
+            &times;
+        </a>
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Clients</a>
+        <a href="">Services</a>
+    </div>
+
+    <section class="main">
+
+    </section>
+
+
+    <script>
+        const openMenu = () => {
+            document.getElementById('navpop').style.width = "100%";
+        }
+        const closeMenu = () => {
+            document.getElementById('navpop').style.width = "0";
+        }
+    </script>
+
+
+</body>
+
+</html>
