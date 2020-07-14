@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sidenav.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+    <title>House Of Innovation</title>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img src="img/hoi.png" alt="">
+            </div>
+            <span class="hamicon" onclick="openMenu()">&#9776;</span>
+        </div>
+    </header>
+    <div class="sidenav" id="navpop">
+        <a href="javascript:void(0)" class="closemenu" onclick="closeMenu()">
+            &times;
+        </a>
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Clients</a>
+        <a href="">Services</a>
+    </div>
+
+    <section class="main">
+        <div class="container mt-5">
+            <div class="row row-outer d-flex justify-content-around">
+                <div class="col-lg-5 col-md-8">
+                    <div class="row row-inner mx-1 my-2">
+                        <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+
+                            <a href="https://youtu.be/NgCXjkLsdkg" target="_blank"><img src="img/dorjihub.jpg"
+                                    alt=""></a>
+
+                            <a href="https://youtu.be/btn7lyaCPTE" target="_blank"><img src="img/uttorait.jpg"
+                                    alt=""></a>
+
+                            <a href="https://youtu.be/Mnaa1W-SSTE" target="_blank"><img src="img/nilamhat.jpg"
+                                    alt=""></a>
+
+                        </div>
+                        <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+
+                            <a href=""><img src="img/hoi-2.png" alt="" class="hoi-link"></a>
+
+                        </div>
+                        <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                            <a href="https://youtu.be/he3tsIpyIWc" target="_blank"><img src="img/narayanmart.jpg"
+                                    alt=""></a>
+
+                            <a href="https://youtu.be/Mnaa1W-SSTE" target="_blank"><img src="img/nilamhat.jpg"
+                                    alt=""></a>
+
+                            <a href="https://youtu.be/btn7lyaCPTE" target="_blank"><img src="img/promotion.jpg"
+                                    alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8">
+                    <div class="row row-inner mx-1 my-2">
+                        <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+
+                            <a href="https://youtu.be/NgCXjkLsdkg" target="_blank"><img src="img/dorjihub.jpg"
+                                    alt=""></a>
+
+                        </div>
+                        <div class="col-4 d-flex flex-column justify-content-between align-items-center">
+                            <a href="https://youtu.be/AnjzpB-G1pw" target="_blank"><img src="img/hijabbook.jpg"
+                                    alt=""></a>
+                            <a href="https://youtu.be/he3tsIpyIWc"><img src="img/narayanmart.jpg" alt=""></a>
+                        </div>
+                        <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                            <a href="https://youtu.be/Mnaa1W-SSTE" target="_blank"><img src="img/nilamhat.jpg"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-8">
+                    <div class="row row-inner mx-1 my-2">
+                        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+
+                            <a href="https://youtu.be/btn7lyaCPTE" target="_blank"><img src="img/hoi.png"
+                                    class="img-fluid img-logo" alt=""></a>
+
+                            <a href="https://youtu.be/he3tsIpyIWc" target="_blank"><img src="img/narayanmart.jpg"
+                                    alt=""></a>
+
+                            <a href="https://youtu.be/AnjzpB-G1pw" target="_blank"><img src="img/hijabbook.jpg"
+                                    alt=""></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        const openMenu = () => {
+            document.getElementById('navpop').style.width = "100%";
+        }
+        const closeMenu = () => {
+            document.getElementById('navpop').style.width = "0";
+        }
+    </script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
