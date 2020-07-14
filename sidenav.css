@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 95px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.hamicon{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 5%;
+    padding: 10px 15px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 5px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+.sidenav a{
+    width: 25%;
+    text-decoration: none;
+    font-size: 27px;
+    color: white;
+    display: block;
+    padding: 20px 10px;
+    text-align: end;
+    margin-left: 73%;
+}
